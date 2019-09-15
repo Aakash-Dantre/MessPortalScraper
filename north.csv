@@ -1,0 +1,43 @@
+Meals,Items,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday
+Breakfast,Item 1,,,,,,,
+,Item 2,,,,,,,
+,, ,Veg Cutlet,Masala Dosa,AlooPyaaz Paratha,Samosa,Paneer Parathaa,Idly sambhar
+,Accompaniants,Chowmein,Poha,Aloo patties,Veg upma,Macroni,Vermicelli(Sewai),Mayonnesse
+,,,,,,,,sandwich
+,Mandatory Items,Sauce,Sev /Chutney,Chutney,Garlic Chutney,Chutney imli,,Coconut chutney
+,,Milk/Tea/Coffee,Milk/Tea/Coffee,Milk/Tea/Coffee,Milk/Tea/Coffee,Milk/Tea/Coffee,Milk/Tea/Coffee,Milk/Tea/Coffee
+,,Bread/Butter/Jam,Bread/Butter/Jam,Bread/Butter/Jam,Bread/Butter/Jam,Bread//Butter/Jam,er/Jam,Bread/Toast/Butter/
+Lunch,Sweet /Special,Pineapple,Watermelon,Papaya,Grape Juice,Banana,Melon,Gauva/Banana
+,Fruits,Cornflakes,Cornflakes,Cornflakes,Cornflakes,Cornflakes,Cornflakes,Cornflakes
+,,,,,,,,
+,Wet Curry,Aloo tikki,Fruit Custard,Balu -Saahi,Boondi Raita,Dahi Bhalla/Imli,Gulab Jamun,------------------
+,Dry Curry,,,,,Chutney,,
+,Dal,Rajma Masala,Dal Batti Churma,Aloo Soyabean,Chola,Kofta Curry,Chola Bhatura,Amritsari kadi
+,,Cabbage,Aloo tamatar,Gobhi Matar,Masala/Palak puri,Aloo Fry,Pumpkin,
+,Steam Rice,Toor dal,Chana Dal,Toor Dal Tadka,Mix Veg Ground,Mansoor Dal Tadka,------------,
+,,,,,Chutney,,,Chana Dal
+,Flavoured Rice,Steam Rice,Steam Rice,Steam Rice,,Steam Rice,Steam Rice,
+,Accompaniants,,,,Moong Dal,,,Steam Rice
+,,Jeera Rice,White Rice,Fried Rice,,White Rice,Matar Pulao,
+,,Chapati/Curd/,Chapati/Curd/,Chapati/Curd/,Steam Rice,Chapati/Curd/,Chapati/Curd/,Jeera Rice
+Pickle/Salad,,Pickle/Salad,Pickle/Salad,Pickle/Salad,Jeera Rice,Pickle/Salad,Pickle/Salad,Chapati/Curd/Pickle/
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Dinner,"Sweet /Special
+Dish",Dabeli,Poha,Papdi chaat,Biscuit,Aloo Sandwich,Pyaaz Pakoda,Bhel Puri
+,Wet,Tea,Tea,Tea,Tea,Tea,Tea,Tea
+,Dry Curry,Jalebi,"Chawal
+Kheer/Tandoori",---------------------,Besan Ladoo,Plain Paratha,----------------------,Suji Halwa
+,Dal,Chana Masala,Roti,Aloo parantha,Alloo matar,Gate ki sabji,Matar Paneer,Paneer do pyaza
+,Steam Rice,(Bengal Gram),Kadhai Paneer,Aloo tamatar sabji Bhindi fry,,Bhindi do pyaza,Turai,Soyabean
+,Flavoured Rice,Aloo jerra,Lauki,Dal Makhani,Chana Dal,Mix Dal,Toor Dal,Palak Daal
+,Accompaniants,Tomato Dal,Masoor Dal,Steam Rice,Steam Rice,Soya pulao,Steam Rice,Steam Rice
+,,Steam Rice,Steam Rice,Lemon Rice,Fried Rice,Steam rice,Jeera Rice,Lemon Rice
+Note-,,"White Rice
+Chapati/Curd/Pickle","Jeera Rice
+Chapati/Curd/","Chapati/Curd/
+Pickle","Chapati/Curd/
+Pickle",Curd/Pickle,"Chapati/Curd/
+Pickle",Chapati/Curd/Pickle
+"1.Roti,pickle and chutney will be there everyday.",,,Pickle,,,,,
