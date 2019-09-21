@@ -27,10 +27,10 @@ driver = webdriver.Chrome(chrome_options=opts)
 driver.get('https://mess.iiit.ac.in')
 sleep(1)
 username_box=driver.find_element_by_id('username')
-username_box.send_keys('aakash.dantre@students.iiit.ac.in')
+username_box.send_keys('user')
 
 password_box=driver.find_element_by_id('password')
-password_box.send_keys('Mayor.1mdb')
+password_box.send_keys('pass')
 
 driver.find_element_by_class_name('btn-submit').click()
 
