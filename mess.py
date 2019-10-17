@@ -37,8 +37,10 @@ driver.find_element_by_class_name('btn-submit').click()
 
 results = driver.find_elements_by_class_name("post")
 
-data=results[1].text
-
+try :data=results[1].text
+except: 
+	print("have you entered your username and password ?")
+	exit()
 # print(data)
 
 lst=[]

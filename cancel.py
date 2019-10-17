@@ -55,6 +55,8 @@ if 'uncancel' in meals:
 for meal in meals:
 	if f == 'TOMMOROW':
 		end=driver.find_element_by_xpath("//input[@name='enddate']")
+
+
 		date=end.get_attribute("value")
 		dated=date[0:2]
 		dated=int(dated)+1
@@ -64,8 +66,10 @@ for meal in meals:
 		driver.execute_script(scr1)
 		driver.execute_script(scr2)
 
-	driver.find_element_by_xpath("//input[@name='"+meal+"[]']").click()
-
+	try: driver.find_element_by_xpath("//input[@name='"+meal+"[]']").click()
+	except:
+		print(color.BOLD+color.RED+"NO VPN or incorrect username/password"+color.END)
+		exit()
 	if uncancel:driver.find_element_by_xpath("//input[@name='uncancel[]']").click()
 
 	driver.find_element_by_xpath("//*[@id=\"content\"]/div[2]/form/div/input").click()
