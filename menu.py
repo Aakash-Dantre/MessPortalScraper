@@ -32,7 +32,7 @@ print("    "+day[0])
 day=int(day[0])
 day+=1
 
-messes=['Yuktahaar','south','north','Kadamb-Veg']
+messes=['Yuktahaar','South','North','Kadamb-Veg']
 questions = [
     inquirer.List('mess',
                   message=color.BOLD+color.GREEN+"SELECT YOUR MESS".center(40,"*"),
@@ -57,7 +57,7 @@ meal=check.get('interests')
 if 'Breakfast' in meal:
 	print("    "+color.BOLD+color.BLUE+"Breakfast menu".center(40,"*")+color.END)
 	print("    "+color.BOLD+color.CYAN+messp.center(20,"-")+color.END)
-	with open(mess,'rt') as csvfile:
+	with open("mess/"+mess,'rt') as csvfile:
 		data=csv.reader(csvfile)
 		i=0
 		for row in data:
@@ -71,7 +71,7 @@ if 'Breakfast' in meal:
 if 'Lunch' in meal:
 	print("    "+color.BOLD+color.BLUE+"Lunch menu".center(40,"*")+color.END)
 	print("    "+color.BOLD+color.CYAN+messp.center(20,"-")+color.END)
-	with open(mess,'rt') as csvfile:
+	with open("mess/"+mess,'rt') as csvfile:
 		data=csv.reader(csvfile)
 		i=0
 		for row in data:
@@ -85,7 +85,7 @@ if 'Lunch' in meal:
 if 'Dinner' in meal:
 	print("    "+color.BOLD+color.BLUE+"Dinner menu".center(40,"*")+color.END)
 	print("    "+color.BOLD+color.CYAN+messp.center(20,"-")+color.END)
-	with open(mess,'rt') as csvfile:
+	with open("mess/"+mess,'rt') as csvfile:
 		data=csv.reader(csvfile)
 		i=0
 		for row in data:
